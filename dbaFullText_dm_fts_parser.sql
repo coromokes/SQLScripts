@@ -1,0 +1,1 @@
+select * from sys.dm_fts_parser('"one two-three-four five"', 1033, NULL, 0)

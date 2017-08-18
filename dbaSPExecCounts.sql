@@ -1,0 +1,25 @@
+SELECT
+[Extent1].[UserID] AS [UserID], 
+[Extent1].[UserName] AS [UserName], 
+[Extent1].[FirstName] AS [FirstName], 
+[Extent1].[LastName] AS [LastName], 
+[Extent1].[EmailAddress] AS [EmailAddress], 
+[Extent1].[PeopleSoftIdCode] AS [PeopleSoftIdCode], 
+[Extent1].[IsOutOfOffice] AS [IsOutOfOffice], 
+[Extent1].[IsDelegate] AS [IsDelegate], 
+[Extent1].[IsActive] AS [IsActive], 
+[Extent1].[PostalCode] AS [PostalCode], 
+[Extent1].[CreateDate] AS [CreateDate], 
+[Extent1].[CreateUserName] AS [CreateUserName], 
+[Extent1].[ModifyDate] AS [ModifyDate], 
+[Extent1].[ModifyUserName] AS [ModifyUserName], 
+[Extent1].[Rowver] AS [Rowver], 
+[Extent1].[MiddleName] AS [MiddleName], 
+[Extent1].[TermsAcceptedDate] AS [TermsAcceptedDate], 
+[Extent1].[LastPasswordChangedDate] AS [LastPasswordChangedDate], 
+[Extent1].[PasswordResetToken] AS [PasswordResetToken], 
+[Extent1].[PasswordResetTokenExpiration] AS [PasswordResetTokenExpiration], 
+[Extent1].[EmployeeTypeID] AS [EmployeeTypeID], 
+[Extent1].[DelegateID] AS [DelegateID]
+FROM [dbo].[User] AS [Extent1] (nolock)
+ORDER BY [Extent1].[LastName] ASC
